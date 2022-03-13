@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InicioPageRoutingModule } from './inicio-routing.module';
+import { DateTimePageRoutingModule } from './date-time-routing.module';
 
-import { InicioPage }   from './inicio.page';
+import { DateTimePage } from './date-time.page';
 import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from '../../shared/shared.module';
         CommonModule,
         FormsModule,
         IonicModule,
-        InicioPageRoutingModule,
+        DateTimePageRoutingModule,
         SharedModule
     ],
-  declarations: [InicioPage]
+  declarations: [DateTimePage]
 })
-export class InicioPageModule {}
+export class DateTimePageModule {}

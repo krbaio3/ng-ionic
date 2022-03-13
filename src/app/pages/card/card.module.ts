@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InicioPageRoutingModule } from './inicio-routing.module';
+import { CardPageRoutingModule } from './card-routing.module';
 
-import { InicioPage }   from './inicio.page';
+import { CardPage }     from './card.page';
 import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from '../../shared/shared.module';
         CommonModule,
         FormsModule,
         IonicModule,
-        InicioPageRoutingModule,
+        CardPageRoutingModule,
         SharedModule
     ],
-  declarations: [InicioPage]
+  declarations: [CardPage]
 })
-export class InicioPageModule {}
+export class CardPageModule {}

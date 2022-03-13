@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPageRoutingModule } from './alert-routing.module';
+import { CheckboxPageRoutingModule } from './checkbox-routing.module';
 
-import { AlertPage }    from './alert.page';
+import { CheckboxPage } from './checkbox.page';
 import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from '../../shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertPageRoutingModule,
+    CheckboxPageRoutingModule,
     SharedModule
   ],
-  declarations: [AlertPage]
+  declarations: [CheckboxPage]
 })
-export class AlertPageModule {}
+export class CheckboxPageModule {}

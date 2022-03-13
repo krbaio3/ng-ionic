@@ -9,7 +9,20 @@
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "inlineTemplate": true,
+          "inlineStyle": true,
+          "skipTests": true,
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true,
+          "skipTests": true,
+          "inlineStyle": true,
+          "inlineTemplate": true
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -171,14 +184,26 @@
     }
   },
   "cli": {
+    "analytics": "44dad3bf-baa0-42bb-91da-8b683f4b46ce",
     "defaultCollection": "@ionic/angular-toolkit"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
-      "styleext": "scss"
+      "styleext": "scss",
+      "spec": false,
+      "name": "Ionic Poc",
+      "prefix": "css",
+      "export": true,
+      "inlineTemplate": true,
+      "inlineStyle": true
     },
     "@ionic/angular-toolkit:page": {
-      "styleext": "scss"
+      "styleext": "scss",
+      "name": "Ionic Poc Page",
+      "prefix": "css",
+      "spec": false,
+      "inlineTemplate": true,
+      "inlineStyle": true
     }
   }
 }
