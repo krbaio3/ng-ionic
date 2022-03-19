@@ -2,7 +2,6 @@ import { Component }       from '@angular/core';
 import { AlertController } from '@ionic/angular';
 
 @Component({
-  selector: 'css-alert',
   template: `
     <css-header name="alert"></css-header>
     <ion-content class="ion-padding">

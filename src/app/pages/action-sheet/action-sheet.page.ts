@@ -1,8 +1,7 @@
-import { Component, OnInit }     from '@angular/core';
+import { Component }     from '@angular/core';
 import { ActionSheetController } from '@ionic/angular';
 
 @Component({
-  selector: 'css-action-sheet',
   template: `
     <css-header name="Action Sheet"></css-header>
     <ion-content class="ion-padding">

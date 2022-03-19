@@ -5,8 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
   template: `
     <ion-header>
       <ion-toolbar>
-
-        <ion-buttons slot="end">
+        <ion-buttons slot="end" *ngIf="regress">
           <ion-back-button
             defaultHref="/"
             text="Regress"
@@ -41,12 +40,17 @@ export class HeaderComponent implements OnInit {
   @Input()
   public imgName: string;
 
+  @Input()
+  public regress: boolean;
+
   constructor() {
     this.name = '';
     this.avatar = false;
     this.imgUrl = '';
+    this.regress= true;
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
 }
