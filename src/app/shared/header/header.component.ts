@@ -1,12 +1,15 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'css-header',
   template: `
-    <ion-header>
+    <ion-header class="ion-no-border" translucent>
       <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button menu="first" color="primary"></ion-menu-button>
+        </ion-buttons>
 
-        <ion-buttons slot="end">
+        <ion-buttons slot="end" *ngIf="regress">
           <ion-back-button
             defaultHref="/"
             text="Regress"
@@ -27,7 +30,7 @@ import { Component, Input, OnInit } from '@angular/core';
   `,
   styleUrls: ['./header.component.scss'],
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
   @Input()
   public name: string;
@@ -41,12 +44,13 @@ export class HeaderComponent implements OnInit {
   @Input()
   public imgName: string;
 
+  @Input()
+  public regress: boolean;
+
   constructor() {
     this.name = '';
     this.avatar = false;
     this.imgUrl = '';
+    this.regress= true;
   }
-
-  ngOnInit() {}
-
 }
