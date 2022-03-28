@@ -52,18 +52,20 @@ export class ListPage implements OnInit {
     this.users = this.dataSrv.getUser();
   }
 
-  public favorite(user) {
+  public async favorite(user) {
     console.log('favorite', user);
-    this.ionList.closeSlidingItems();
+    await this.ionList.closeSlidingItems();
 
   }
-  public share(user) {
+  public async share(user) {
     console.log('share', user);
+    await this.ionList.closeSlidingItems();
 
   }
 
-  public delete(user) {
+  public async delete(user) {
     console.log('delete', user.name);
+    await this.ionList.closeSlidingItems();
 
   }
 

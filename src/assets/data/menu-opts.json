@@ -1,0 +1,92 @@
+[
+  {
+    "icon": "american-football",
+    "color": "primary",
+    "name": "Action Sheet",
+    "redirectTo": "/action-sheet"
+  },
+  {
+    "icon": "logo-apple-appstore",
+    "color": "primary",
+    "name": "Alert",
+    "redirectTo": "/alert"
+  },
+  {
+    "icon": "beaker",
+    "color": "primary",
+    "name": "Avatar",
+    "redirectTo": "/avatar"
+  },
+  {
+    "icon": "radio-button-off",
+    "color": "primary",
+    "name": "Button",
+    "redirectTo": "/button"
+  },
+  {
+    "icon": "card",
+    "color": "primary",
+    "name": "Card",
+    "redirectTo": "/card"
+  },
+  {
+    "icon": "checkmark-circle",
+    "color": "primary",
+    "name": "Checkbox",
+    "redirectTo": "/checkbox"
+  },
+  {
+    "icon": "calendar",
+    "color": "primary",
+    "name": "DateTime",
+    "redirectTo": "/date-time"
+  },
+  {
+    "icon": "car",
+    "color": "primary",
+    "name": "Fab",
+    "redirectTo": "/fab"
+  },
+  {
+    "icon": "grid",
+    "color": "primary",
+    "name": "Grid",
+    "redirectTo": "/grid"
+  },
+  {
+    "icon": "infinite",
+    "color": "primary",
+    "name": "Scroll",
+    "redirectTo": "/scroll"
+  },
+  {
+    "icon": "hammer",
+    "color": "primary",
+    "name": "Input Forms",
+    "redirectTo": "/input"
+  },
+  {
+    "icon": "list",
+    "color": "primary",
+    "name": "List Sliding",
+    "redirectTo": "/list"
+  },
+  {
+    "icon": "reorder-three",
+    "color": "primary",
+    "name": "List - Reorder",
+    "redirectTo": "/list-reorder"
+  },
+  {
+    "icon": "refresh-circle",
+    "color": "primary",
+    "name": "Loading",
+    "redirectTo": "/loading"
+  },
+  {
+    "icon": "phone-portrait",
+    "color": "primary",
+    "name": "Modal",
+    "redirectTo": "/modal"
+  }
+]

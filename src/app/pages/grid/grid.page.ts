@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   template: `
   <css-header name="Grid"></css-header>
-  <ion-content>
+  <ion-content class="ion-padding" fullscreen>
     <ion-grid fixed>
       <ion-row>
         <ion-col
